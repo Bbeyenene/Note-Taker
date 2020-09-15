@@ -19,16 +19,16 @@
    1. Copy the code from the code [Bbeyenene/Note-taker](https://github.com/Bbeyenene/Note-Taker) and clone it in 
    
    ## Image of the generated webpage
-   ![Team html](Images/team-html.png)
+   ![Team html](public/assets/Images/home.png)
 
-  [Click me for video demonstration](#)
+   ![Team html](public/assets/Images/saved.png)
 
    ## Contributiion
    [Bbeyenene](https://github.com/Bbeyenene) is the only contrubuter to this project.
    
    ## Developers Contact Information
     * LinkdIn Profile: [Berhane](https://www.linkedin.com/in/berhane-beyene/)
-    * URL : N/A
+    * URL : [https://infonotebook.herokuapp.com/](https://infonotebook.herokuapp.com/)
     * Email: monoxica2004@yahoo.com
    ## License
     ### This application is licensed under [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
