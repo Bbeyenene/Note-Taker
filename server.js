@@ -1,20 +1,19 @@
 //express dependecy 
-const express = require("express");
-//requre routes paths
-const apiRoutes = require("./routes/apiRoutes");
-const htmlRoutes = require("./routes/htmlRoutes");
+var express = require("express");
 
 // Initializing the app from express call
-const app = express();
+var app = express();
 //declaring port process.env.port for heroku or as optional port 8080 for localhost
-const PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 8080;
 
 // Setting up body parsing and encoding, static, and route middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
-app.use("/api", apiRoutes);
-app.use("/", htmlRoutes);
 
-// Start the server on the port
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
+
+
+// server listening on the port 
 app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
