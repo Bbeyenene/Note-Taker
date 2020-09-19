@@ -25,7 +25,7 @@ Note_Taker app uses node express to save, retrieve and delete data from a JSON f
 
    ![Team html](public/assets/Images/saved.png)
 
-   ## Contributition
+   ## Contribution
    [Bbeyenene](https://github.com/Bbeyenene) is the only contrubuter to this project.
    
    ## Developers Contact Information
